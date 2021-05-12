@@ -1,1 +1,26 @@
 // Specific CSS for your home-page
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+
+header {
+  background-color: red;
+}
+
+main {
+  background-color: orange;
+  flex: 1;
+}
+
+footer {
+  background-color: yellow;
+}
