@@ -1,7 +1,7 @@
 // Specific CSS for your home-page
 html,
 body {
-  position: fixed;
+  // position: fixed;
   overflow: hidden;
 }
 
@@ -14,9 +14,13 @@ body {
   flex-direction: column;
   margin: 0;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh + 1px);
+
+  // Contain content within nav bars browser
   // min-height: 100vh;
   // min-height: -webkit-fill-available;
+
+  // Prevents iOS safari bounce
   overscroll-behavior-y: none;
 }
 
