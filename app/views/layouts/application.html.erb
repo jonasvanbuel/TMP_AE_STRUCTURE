@@ -13,8 +13,13 @@
     <!-- <meta name="apple-mobile-web-app-status-bar-style" content="black"> -->
     <!-- <meta name="apple-mobile-web-app-title" content="All Ears"> -->
 
-    <!-- Chrome PWA behaviour -->
+    <!-- Hide address bar when added to desktop -->
     <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Requirement for PWA functionality -->
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Favicon -->
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 
