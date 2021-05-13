@@ -29,6 +29,9 @@ document.addEventListener('turbolinks:load', () => {
   // initSelect2();
 });
 
+
+
+
 // Register service worker
 // Source: https://dev.to/coorasse/the-progressive-rails-app-46ma
 window.addEventListener('load', () => {
