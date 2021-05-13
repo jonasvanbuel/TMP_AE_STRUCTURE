@@ -1,6 +1,7 @@
 {
   "short_name": "All Ears",
   "name": "Test May 2021",
+  "description": "This is the app description",
   "icons": [
     {
      "src": "\/icons\/android-icon-36x36.png",
